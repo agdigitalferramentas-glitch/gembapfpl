@@ -22,7 +22,7 @@ const modules = [
 ];
 
 export const ModulesSection = () => (
-  <section id="modules" className="py-20 lg:py-28 bg-surface-2 relative">
+  <section id="modules" className="py-14 lg:py-20 bg-surface-2 relative">
     <div className="absolute inset-0 bg-blueprint opacity-30 pointer-events-none" />
     <div className="container relative z-10">
       <div className="max-w-3xl">

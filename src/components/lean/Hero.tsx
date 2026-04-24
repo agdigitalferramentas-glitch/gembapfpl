@@ -17,7 +17,7 @@ export const Hero = () => {
       <div className="absolute -top-24 right-[-10%] h-[420px] w-[420px] rounded-full bg-accent/20 blur-3xl pointer-events-none" />
       <div className="absolute bottom-0 left-[-15%] h-[360px] w-[360px] rounded-full bg-primary/30 blur-3xl pointer-events-none" />
 
-      <div className="container relative z-10 pt-16 pb-20 lg:pt-24 lg:pb-28">
+      <div className="container relative z-10 pt-12 pb-14 lg:pt-20 lg:pb-20">
         {/* Badge */}
         <div className="inline-flex items-center gap-2.5 rounded-full border border-accent/40 bg-accent/5 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.18em] text-accent backdrop-blur">
           <span className="pulse-dot" />

@@ -7,7 +7,7 @@ const steps = [
 ];
 
 export const ProjectSection = () => (
-  <section className="py-20 lg:py-28 bg-surface-2 relative">
+  <section className="py-14 lg:py-20 bg-surface-2 relative">
     <div className="container">
       <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">
         <div>
