@@ -23,7 +23,7 @@ const audience = [
 ];
 
 export const AudienceSection = () => (
-  <section className="py-20 lg:py-28 bg-surface-mid relative overflow-hidden">
+  <section className="py-14 lg:py-20 bg-surface-mid relative overflow-hidden">
     <div className="absolute -top-32 -right-32 h-[420px] w-[420px] rounded-full bg-accent/10 blur-3xl pointer-events-none" />
     <div className="container relative z-10">
       <div className="max-w-3xl">

@@ -13,7 +13,7 @@ const included = [
 export const PricingSection = () => (
   <section
     id="pricing"
-    className="py-20 lg:py-28 relative overflow-hidden"
+    className="py-14 lg:py-20 relative overflow-hidden"
     style={{ background: "var(--gradient-deep)" }}
   >
     <div className="absolute inset-0 bg-blueprint opacity-25 pointer-events-none" />

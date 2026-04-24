@@ -8,7 +8,7 @@ const stats = [
 ];
 
 export const SocialProofSection = () => (
-  <section className="py-20 lg:py-28 bg-surface-deep relative">
+  <section className="py-14 lg:py-20 bg-surface-deep relative">
     <div className="container">
       <div className="max-w-3xl">
         <div className="label-eyebrow">Números que comprovam</div>

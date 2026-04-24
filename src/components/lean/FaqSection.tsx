@@ -33,7 +33,7 @@ const faqs = [
 ];
 
 export const FaqSection = () => (
-  <section className="py-20 lg:py-28 bg-surface-3">
+  <section className="py-14 lg:py-20 bg-surface-3">
     <div className="container max-w-4xl">
       <div className="text-center">
         <div className="label-eyebrow inline-flex">Perguntas frequentes</div>

@@ -1,7 +1,7 @@
 import { ArrowRight } from "lucide-react";
 
 export const FinalCta = () => (
-  <section className="py-24 lg:py-32 bg-surface-mid relative overflow-hidden">
+  <section className="py-16 lg:py-24 bg-surface-mid relative overflow-hidden">
     <div className="absolute inset-0 bg-blueprint opacity-40 pointer-events-none" />
     <div
       className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[600px] w-[600px] rounded-full bg-accent/15 blur-3xl pointer-events-none"

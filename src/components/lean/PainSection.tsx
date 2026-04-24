@@ -22,7 +22,7 @@ const pains = [
 ];
 
 export const PainSection = () => (
-  <section className="bg-surface-3 py-20 lg:py-28 relative">
+  <section className="bg-surface-3 py-14 lg:py-20 relative">
     <div className="container">
       <div className="max-w-3xl">
         <div className="label-eyebrow">Você vive alguma dessas situações?</div>
