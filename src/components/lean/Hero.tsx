@@ -26,18 +26,23 @@ export const Hero = () => {
 
         {/* Title */}
         <h1 className="hero-title mt-8 text-foreground">
-          <span className="block">Profissional</span>
-          <span className="block text-accent">LEAN</span>
-          <span className="block text-muted-foreground text-[0.42em] font-semibold tracking-normal mt-3 normal-case">
-            Programa de Formação
+          <span className="block">Elimine desperdícios</span>
+          <span className="block text-accent">invisíveis</span>
+          <span className="block text-foreground text-[0.55em] font-bold tracking-tight mt-2 normal-case leading-[1.05]">
+            e transforme sua operação em resultado mensurável em poucas semanas.
           </span>
         </h1>
 
         <p className="mt-8 max-w-2xl text-lg md:text-xl leading-relaxed text-muted-foreground">
-          O programa completo para quem quer enxergar desperdícios, transformar processos e se tornar
-          um <span className="text-foreground font-semibold">agente de mudança reconhecido</span> na sua empresa —
-          com 20 módulos das principais ferramentas Lean aplicadas na prática.
+          Um <span className="text-foreground font-semibold">programa prático de formação em Lean</span> onde você aplica
+          nos seus processos, identifica gargalos ocultos e já sai com melhorias reais implementadas —
+          <span className="text-accent font-semibold"> não é teoria, é execução.</span>
         </p>
+
+        <div className="mt-5 inline-flex items-center gap-2 text-xs uppercase tracking-[0.18em] text-muted-foreground">
+          <span className="h-px w-8 bg-accent/60" />
+          Profissional Lean · Programa de Formação Gemba Group
+        </div>
 
         {/* CTAs */}
         <div className="mt-10 flex flex-col sm:flex-row items-start sm:items-center gap-5">
