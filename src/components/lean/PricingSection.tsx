@@ -41,10 +41,25 @@ export const PricingSection = () => (
               Programa de Formação Profissional Lean
             </h3>
 
+            {/* Ancoragem */}
+            <div className="mt-7 text-center">
+              <div className="text-xs uppercase tracking-[0.22em] text-muted-foreground font-bold">
+                De
+              </div>
+              <div className="mt-1">
+                <span className="font-numeric text-3xl text-muted-foreground line-through decoration-destructive/70 decoration-[3px]">
+                  R$ 5.997,00
+                </span>
+              </div>
+              <div className="mt-2 text-xs uppercase tracking-[0.22em] text-accent font-bold">
+                Por apenas
+              </div>
+            </div>
+
             {/* Opção 1 destaque */}
-            <div className="mt-8 rounded-xl border border-accent/40 bg-accent/5 p-6 text-center relative">
-              <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-accent text-accent-foreground text-[10px] font-bold uppercase tracking-[0.2em] px-3 py-1 rounded-full">
-                Melhor oferta · 5% off
+            <div className="mt-4 rounded-xl border border-accent/40 bg-accent/5 p-6 text-center relative">
+              <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-accent text-accent-foreground text-[10px] font-bold uppercase tracking-[0.2em] px-3 py-1 rounded-full whitespace-nowrap">
+                Melhor oferta
               </span>
               <div className="text-xs uppercase tracking-wider text-accent font-bold">
                 💰 À vista — pagamento único
@@ -52,8 +67,8 @@ export const PricingSection = () => (
               <div className="mt-2 font-numeric text-6xl text-foreground">
                 R$ 3.040<span className="text-3xl">,00</span>
               </div>
-              <div className="mt-1 text-sm text-accent">
-                Você economiza R$ 160,00 pagando à vista
+              <div className="mt-1 text-sm text-accent font-semibold">
+                Você economiza R$ 1.960,00 pagando à vista
               </div>
             </div>
 
