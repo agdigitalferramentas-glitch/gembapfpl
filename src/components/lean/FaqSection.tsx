@@ -20,7 +20,24 @@ const faqs = [
   },
   {
     q: "Como funciona o projeto para certificação?",
-    a: "Você desenvolve um projeto A3 estratégico real na sua empresa ao longo do programa. O escopo é aprovado pela sua liderança e envolve 5 etapas: requisitos, situação atual, situação alvo, plano de ações e indicadores. A certificação é concedida quando os indicadores atingem a meta por 3 meses consecutivos, o plano está concluído e o gestor valida o resultado.",
+    a: (
+      <>
+        <p>
+          Você desenvolve um projeto A3 estratégico real na sua empresa ao longo do programa. O processo funciona da seguinte forma:
+        </p>
+        <ul className="mt-3 list-disc space-y-2 pl-5">
+          <li>
+            <strong>Estrutura:</strong> O projeto envolve 5 etapas (requisitos, situação atual, situação alvo, plano de ações e indicadores).
+          </li>
+          <li>
+            <strong>Metas:</strong> O plano deve ser concluído e os indicadores precisam atingir a meta estipulada por 3 meses consecutivos.
+          </li>
+          <li>
+            <strong>Certificação:</strong> É concedida após a análise e validação conjunta dos resultados entre o gestor da empresa e o comitê técnico do Gemba Group.
+          </li>
+        </ul>
+      </>
+    ),
   },
   {
     q: "Posso parcelar sem juros?",
