@@ -30,7 +30,7 @@ export const PricingSection = () => (
       </div>
 
       <div className="mt-14 max-w-2xl mx-auto">
-        <div className="relative rounded-2xl border-2 border-primary bg-surface-3/95 backdrop-blur-md shadow-[0_30px_80px_-20px_hsl(var(--primary)/0.6)] overflow-hidden">
+        <div id="pricing-card" className="relative scroll-mt-24 rounded-2xl border-2 border-primary bg-surface-3/95 backdrop-blur-md shadow-[0_30px_80px_-20px_hsl(var(--primary)/0.6)] overflow-hidden">
           {/* top selo */}
           <div className="bg-primary text-primary-foreground text-center py-2.5 text-xs font-bold uppercase tracking-[0.2em] flex items-center justify-center gap-2">
             <Lock className="h-3.5 w-3.5" /> Vagas limitadas · Início 06/07/2026
@@ -92,7 +92,7 @@ export const PricingSection = () => (
             </div>
 
             <a
-              href="#"
+              href="#pricing-card"
               className="group mt-8 w-full inline-flex items-center justify-center gap-2 rounded-md bg-primary px-6 py-4 text-base font-bold text-primary-foreground shadow-[0_10px_40px_-10px_hsl(var(--primary)/0.7)] transition-all hover:bg-primary-strong hover:-translate-y-0.5 hover:shadow-[0_18px_50px_-10px_hsl(var(--accent)/0.6)]"
             >
               Garantir minha vaga agora

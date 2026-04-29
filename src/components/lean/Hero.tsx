@@ -51,7 +51,7 @@ export const Hero = () => {
         {/* CTAs */}
         <div className="mt-7 md:mt-10 flex flex-col sm:flex-row items-start sm:items-center gap-4 md:gap-5">
           <a
-            href="#pricing"
+            href="#pricing-card"
             className="group inline-flex items-center gap-2 rounded-md bg-primary px-6 md:px-7 py-3.5 md:py-4 text-base font-bold text-primary-foreground shadow-[0_10px_40px_-10px_hsl(var(--primary)/0.7)] transition-all hover:bg-primary-strong hover:-translate-y-0.5 hover:shadow-[0_18px_50px_-10px_hsl(var(--accent)/0.55)]"
           >
             Quero ser um Profissional Lean
