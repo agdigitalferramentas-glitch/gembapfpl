@@ -41,7 +41,7 @@ export const Hero = () => {
 
         <div className="mt-5 inline-flex items-center gap-2 text-xs uppercase tracking-[0.18em] text-muted-foreground">
           <span className="h-px w-8 bg-accent/60" />
-          Profissional Lean · Programa de Formação Gemba Group
+          PROGRAMA DE FORMAÇÃO PROFISSIONAL LEAN
         </div>
 
         {/* CTAs */}
