@@ -30,7 +30,7 @@ export const AudienceSection = () => (
         <div className="label-eyebrow">Para quem é este programa</div>
         <h2 className="section-title mt-4 text-foreground">
           Para quem está na operação e quer{" "}
-          <span className="text-accent">liderar a transformação.</span>
+          <span className="text-accent">liderar a{"\u00A0"}transformação.</span>
         </h2>
       </div>
 
