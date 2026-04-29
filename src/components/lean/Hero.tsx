@@ -42,7 +42,7 @@ export const Hero = () => {
         </h1>
 
         <p className="mt-8 max-w-2xl text-lg md:text-xl leading-relaxed text-muted-foreground">
-          Um <span className="text-foreground font-semibold">programa prático de formação em Lean</span> onde você aplica
+          Um <span className="text-foreground font-semibold">programa prático de formação em Lean reconhecido por empresas de todos os portes</span> onde você aplica
           nos seus processos, identifica gargalos ocultos e já sai com melhorias reais implementadas —
           <span className="text-accent font-semibold"> não é teoria, é execução.</span>
         </p>
