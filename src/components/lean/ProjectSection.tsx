@@ -3,7 +3,7 @@ const steps = [
   { n: "2", t: "Situação atual", d: "Diagnóstico do processo e medição da linha de base." },
   { n: "3", t: "Situação alvo", d: "Definição clara da meta e do estado futuro desejado." },
   { n: "4", t: "Plano de ações", d: "Desdobramento em ações específicas, prazos e responsáveis." },
-  { n: "5", t: "Indicadores de performance", d: "Acompanhamento sistemático e validação do gestor." },
+  { n: "5", t: "Indicadores de performance", d: "Acompanhamento sistemático com coachings e mentorias." },
 ];
 
 export const ProjectSection = () => (
