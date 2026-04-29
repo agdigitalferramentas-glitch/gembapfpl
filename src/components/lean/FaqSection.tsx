@@ -40,6 +40,10 @@ const faqs = [
     ),
   },
   {
+    q: "E se eu perder alguma aula ao vivo?",
+    a: "Você não será prejudicado. Todas as aulas ao vivo são gravadas e sobem para a nossa plataforma. Se houver imprevistos, você pode acessar e repor o conteúdo assistindo quantas vezes quiser, sem que isso coloque em risco a sua certificação final.",
+  },
+  {
     q: "Posso parcelar sem juros?",
     a: "Sim. Em até 6x sem juros no cartão, com parcelas de R$ 533,33 (total R$ 3.200,00). Quem paga à vista tem 5% de desconto e paga R$ 3.040,00.",
   },
