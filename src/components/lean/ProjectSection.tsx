@@ -14,7 +14,7 @@ export const ProjectSection = () => (
           <div className="label-eyebrow">Projeto aplicado na prática</div>
           <h2 className="section-title mt-4 text-foreground">
             Você aprende fazendo.{" "}
-            <span className="text-accent">E sai com resultado comprovado.</span>
+            <span className="text-accent">E sai com resultado{"\u00A0"}comprovado.</span>
           </h2>
           <div className="mt-6 space-y-5 text-muted-foreground leading-relaxed">
             <p>
