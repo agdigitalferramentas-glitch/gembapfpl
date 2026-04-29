@@ -37,7 +37,7 @@ export const Hero = () => {
           <span className="block">Elimine desperdícios</span>
           <span className="block text-accent">invisíveis</span>
           <span className="block text-foreground text-[0.55em] font-bold tracking-tight mt-2 normal-case leading-[1.05]">
-            e transforme sua operação em resultado mensurável em poucas semanas.
+            e transforme sua operação em resultado<br className="hidden md:inline" /> mensurável em poucas semanas.
           </span>
         </h1>
 
