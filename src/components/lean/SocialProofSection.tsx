@@ -1,5 +1,5 @@
 const stats = [
-  { v: "+30k", l: "Profissionais capacitados em todo o Brasil" },
+  { v: "+30k", l: "Alunos capacitados presencialmente" },
   { v: "+1Bi", l: "Em ganhos gerados pelos projetos dos alunos" },
   { v: "+500", l: "Projetos de consultorias Lean & Six Sigma" },
   { v: "30x", l: "Retorno médio gerado pelos projetos de melhoria durante a formação." },
