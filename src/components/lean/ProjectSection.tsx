@@ -27,7 +27,7 @@ export const ProjectSection = () => (
               A aprovação é concluída quando os indicadores estão dentro da meta por pelo menos{" "}
               <span className="text-accent font-semibold">3 meses</span>, o plano de ações está concluído
               e o gestor direto valida o resultado. Você sai com um projeto real no portfólio, aprovado
-              por consultores da Gemba Group.
+              pelo comitê técnico de especialistas seniores do Gemba Group.
             </p>
           </div>
         </div>
