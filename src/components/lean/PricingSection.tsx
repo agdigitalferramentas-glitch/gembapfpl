@@ -106,8 +106,15 @@ export const PricingSection = () => (
               <Lock className="h-3 w-3" /> Ambiente seguro · Início 06/07/2026 · Vagas limitadas
             </div>
 
+            {/* Divisor */}
+            <div className="mt-8 mb-6 flex items-center gap-3 text-xs uppercase tracking-[0.3em] text-muted-foreground">
+              <div className="flex-1 h-px bg-border" />
+              O que está incluso
+              <div className="flex-1 h-px bg-border" />
+            </div>
+
             {/* Inclusos */}
-            <ul className="mt-8 space-y-2.5 text-sm">
+            <ul className="space-y-2.5 text-sm">
               {included.map((i) => (
                 <li key={i} className="flex gap-3">
                   <span className="text-accent font-bold shrink-0">✓</span>
