@@ -14,7 +14,7 @@ export const SocialProofSection = () => (
         <div className="label-eyebrow">Números que comprovam</div>
         <h2 className="section-title mt-4 text-foreground">
           17 anos transformando operações.{" "}
-          <span className="text-accent">Os resultados falam por si.</span>
+          <span className="text-accent">Os resultados falam por{"\u00A0"}si.</span>
         </h2>
         <p className="mt-6 text-base md:text-lg leading-relaxed text-muted-foreground">
           Faça parte do consagrado <span className="text-foreground font-semibold">PFPL | Programa de Formação Profissional Lean</span>. O 1º programa de formação Lean completo no Brasil, criado pelo Gemba Group e reconhecido por empresas de todos os portes e setores.

@@ -9,7 +9,7 @@ export const FinalCta = () => (
     <div className="container relative z-10 max-w-3xl text-center">
       <h2 className="font-display font-bold uppercase text-foreground leading-[0.95] text-4xl md:text-6xl tracking-tight">
         As empresas buscam e promovem quem enxerga{" "}
-        <span className="text-accent">desperdícios e oportunidades onde os outros não veem</span>
+        <span className="text-accent">desperdícios e oportunidades onde os outros não{"\u00A0"}veem</span>
       </h2>
       <p className="mt-7 text-lg text-muted-foreground leading-relaxed">
         O Programa de Formação Profissional Lean da Gemba Group te dá as 20 ferramentas para fazer

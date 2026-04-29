@@ -59,7 +59,7 @@ export const FaqSection = () => (
       <div className="text-center">
         <div className="label-eyebrow inline-flex">Perguntas frequentes</div>
         <h2 className="section-title mt-4 text-foreground">
-          Ainda tem dúvidas? <span className="text-accent">A gente responde.</span>
+          Ainda tem dúvidas? <span className="text-accent">A gente{"\u00A0"}responde.</span>
         </h2>
       </div>
 

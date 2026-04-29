@@ -28,7 +28,7 @@ export const ModulesSection = () => (
       <div className="max-w-3xl">
         <div className="label-eyebrow">Conteúdo completo</div>
         <h2 className="section-title mt-4 text-foreground">
-          20 Módulos. <span className="text-accent">As ferramentas Lean</span> mais poderosas do mercado.
+          20 Módulos. <span className="text-accent">As ferramentas Lean</span> mais poderosas do{"\u00A0"}mercado.
         </h2>
       </div>
 
