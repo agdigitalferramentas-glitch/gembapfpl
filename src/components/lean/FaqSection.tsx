@@ -16,7 +16,7 @@ const faqs = [
   },
   {
     q: "O certificado é reconhecido pelo mercado?",
-    a: "Sim. O Certificado de Profissional Lean Gemba Group é reconhecido por empresas dos setores industrial, logístico e de serviços que adotam o sistema Lean. A Gemba Group é a principal referência nacional em formação e consultoria Lean, com mais de 17 anos e 30.000 profissionais formados.",
+    a: "Sim. O Certificado do PFPL - Programa de Formação Profissional Lean é reconhecido por empresas dos setores industrial, logístico e de serviços que adotam o sistema Lean. A Gemba Group é a principal referência nacional em formação e consultoria Lean, com mais de 17 anos e mais de 30 mil profissionais formados.",
   },
   {
     q: "Como funciona o projeto para certificação?",
