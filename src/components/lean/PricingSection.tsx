@@ -67,8 +67,8 @@ export const PricingSection = () => (
               <div className="text-xs uppercase tracking-wider text-accent font-bold">
                 💰 À vista — pagamento único
               </div>
-              <div className="mt-2 font-numeric text-6xl text-foreground">
-                R$ 3.040<span className="text-3xl">,00</span>
+              <div className="mt-2 font-numeric text-5xl md:text-6xl text-foreground whitespace-nowrap">
+                R$ 3.040<span className="text-2xl md:text-3xl">,00</span>
               </div>
               <div className="mt-1 text-sm text-accent font-semibold">
                 Você economiza R$ 1.960,00 pagando à vista
