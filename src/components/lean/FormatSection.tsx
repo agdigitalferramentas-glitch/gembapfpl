@@ -7,7 +7,7 @@ const items = [
   {
     icon: "📅",
     title: "Terças e Quintas — 19h30 às 22h30",
-    text: "Início em 06/07/2026. Formato noturno para quem não abre mão do trabalho para estudar.",
+    text: "Início em 06/07/2026. 82 horas de aulas ao vivo no formato noturno, para quem não abre mão do trabalho para estudar.",
   },
   {
     icon: "📋",
