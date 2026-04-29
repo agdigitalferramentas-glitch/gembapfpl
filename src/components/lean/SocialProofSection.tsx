@@ -3,7 +3,7 @@ const stats = [
   { v: "+1Bi", l: "Em ganhos gerados pelos projetos dos alunos" },
   { v: "+1500", l: "Certificações de projetos Lean & Six Sigma" },
   { v: "30x", l: "Retorno médio gerado pelos projetos de melhoria durante a formação." },
-  { v: "17", suffix: "anos", l: "Referência nacional em Lean" },
+  { v: "17", suffix: "anos", l: "Referência Nacional" },
   { v: "+1000", l: "Empresas atendidas em consultoria" },
 ];
 
