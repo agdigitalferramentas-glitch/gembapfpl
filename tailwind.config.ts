@@ -102,12 +102,17 @@ export default {
           from: { opacity: "0", transform: "translateY(8px)" },
           to: { opacity: "1", transform: "translateY(0)" },
         },
+        marquee: {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-50%)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "slide-up": "slide-up 0.35s cubic-bezier(0.22,1,0.36,1)",
         "fade-in": "fade-in 0.5s ease-out both",
+        marquee: "marquee 40s linear infinite",
       },
     },
   },
