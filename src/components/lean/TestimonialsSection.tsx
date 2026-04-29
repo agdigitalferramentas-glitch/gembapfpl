@@ -56,7 +56,7 @@ export const TestimonialsSection = () => {
           <div className="label-eyebrow">Depoimentos de quem viveu</div>
           <h2 className="section-title mt-4 text-foreground">
             O que dizem os profissionais{" "}
-            <span className="text-accent">formados pela Gemba.</span>
+            <span className="text-accent">formados pela{"\u00A0"}Gemba.</span>
           </h2>
         </div>
 
