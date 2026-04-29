@@ -18,7 +18,7 @@ export const Hero = () => {
       <div className="absolute -top-24 right-[-10%] h-[420px] w-[420px] rounded-full bg-accent/20 blur-3xl pointer-events-none" />
       <div className="absolute bottom-0 left-[-15%] h-[360px] w-[360px] rounded-full bg-primary/30 blur-3xl pointer-events-none" />
 
-      <div className="container relative z-10 pt-5 pb-10 lg:pt-20 lg:pb-20">
+      <div className="container relative z-10 pt-8 pb-12 lg:pt-20 lg:pb-20">
         {/* Badge */}
         <div className="inline-flex items-center gap-2.5 rounded-full border border-accent/40 bg-accent/5 px-4 py-1.5 text-[10px] md:text-xs font-bold uppercase tracking-[0.18em] text-accent backdrop-blur">
           <span className="pulse-dot" />
@@ -29,11 +29,11 @@ export const Hero = () => {
         <img
           src={logoPfpl}
           alt="PFPL — Programa de Formação Profissional Lean"
-          className="mt-4 md:mt-8 w-[130px] md:w-[200px] h-auto"
+          className="mt-6 md:mt-8 w-[130px] md:w-[200px] h-auto"
         />
 
         {/* Title */}
-        <h1 className="hero-title mt-3 md:mt-6 text-foreground">
+        <h1 className="hero-title mt-5 md:mt-6 text-foreground">
           <span className="block">Elimine desperdícios</span>
           <span className="block text-accent">invisíveis</span>
           <span className="block text-foreground text-[0.55em] font-bold tracking-tight mt-2 normal-case leading-[1.05]">
@@ -41,7 +41,7 @@ export const Hero = () => {
           </span>
         </h1>
 
-        <p className="mt-4 md:mt-8 max-w-2xl text-base md:text-xl leading-relaxed text-muted-foreground">
+        <p className="mt-6 md:mt-8 max-w-2xl text-base md:text-xl leading-relaxed text-muted-foreground">
           Um <span className="text-foreground font-semibold">programa prático de formação em Lean reconhecido por empresas de todos os portes</span> onde você aplica
           nos seus processos, identifica gargalos ocultos e já sai com melhorias reais implementadas —
           <span className="text-accent font-semibold"> não é teoria, é execução.</span>
@@ -49,7 +49,7 @@ export const Hero = () => {
 
 
         {/* CTAs */}
-        <div className="mt-5 md:mt-10 flex flex-col sm:flex-row items-start sm:items-center gap-4 md:gap-5">
+        <div className="mt-7 md:mt-10 flex flex-col sm:flex-row items-start sm:items-center gap-4 md:gap-5">
           <a
             href="#pricing"
             className="group inline-flex items-center gap-2 rounded-md bg-primary px-6 md:px-7 py-3.5 md:py-4 text-base font-bold text-primary-foreground shadow-[0_10px_40px_-10px_hsl(var(--primary)/0.7)] transition-all hover:bg-primary-strong hover:-translate-y-0.5 hover:shadow-[0_18px_50px_-10px_hsl(var(--accent)/0.55)]"
