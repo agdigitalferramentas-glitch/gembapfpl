@@ -1,7 +1,7 @@
 const stats = [
   { v: "+30k", l: "Profissionais capacitados em todo o Brasil" },
   { v: "+1Bi", l: "Em ganhos gerados pelos projetos dos alunos" },
-  { v: "+1500", l: "Certificações de projetos Lean & Six Sigma" },
+  { v: "+500", l: "Projetos de consultorias Lean & Six Sigma" },
   { v: "30x", l: "Retorno médio gerado pelos projetos de melhoria durante a formação." },
   { v: "17", suffix: "anos", l: "Referência Nacional" },
   { v: "+1000", l: "Empresas atendidas em consultoria e treinamentos." },
