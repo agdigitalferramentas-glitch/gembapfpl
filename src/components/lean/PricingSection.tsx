@@ -94,6 +94,18 @@ export const PricingSection = () => (
               </div>
             </div>
 
+            <a
+              href="#"
+              className="group mt-8 w-full inline-flex items-center justify-center gap-2 rounded-md bg-primary px-6 py-4 text-base font-bold text-primary-foreground shadow-[0_10px_40px_-10px_hsl(var(--primary)/0.7)] transition-all hover:bg-primary-strong hover:-translate-y-0.5 hover:shadow-[0_18px_50px_-10px_hsl(var(--accent)/0.6)]"
+            >
+              Garantir minha vaga agora
+              <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
+            </a>
+
+            <div className="mt-5 text-center text-xs text-muted-foreground flex items-center justify-center gap-2">
+              <Lock className="h-3 w-3" /> Ambiente seguro · Início 06/07/2026 · Vagas limitadas
+            </div>
+
             {/* Inclusos */}
             <ul className="mt-8 space-y-2.5 text-sm">
               {included.map((i) => (
@@ -109,18 +121,6 @@ export const PricingSection = () => (
                 </span>
               </li>
             </ul>
-
-            <a
-              href="#"
-              className="group mt-8 w-full inline-flex items-center justify-center gap-2 rounded-md bg-primary px-6 py-4 text-base font-bold text-primary-foreground shadow-[0_10px_40px_-10px_hsl(var(--primary)/0.7)] transition-all hover:bg-primary-strong hover:-translate-y-0.5 hover:shadow-[0_18px_50px_-10px_hsl(var(--accent)/0.6)]"
-            >
-              Garantir minha vaga agora
-              <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
-            </a>
-
-            <div className="mt-5 text-center text-xs text-muted-foreground flex items-center justify-center gap-2">
-              <Lock className="h-3 w-3" /> Ambiente seguro · Início 06/07/2026 · Vagas limitadas
-            </div>
           </div>
         </div>
       </div>
