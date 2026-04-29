@@ -46,8 +46,23 @@ export const PricingSection = () => (
               82h de aulas + 8h de coaching para certificação
             </div>
 
+            {/* Ancoragem */}
+            <div className="mt-6 text-center">
+              <div className="text-xs uppercase tracking-[0.22em] text-muted-foreground font-bold">
+                De
+              </div>
+              <div className="mt-1">
+                <span className="font-numeric text-3xl text-muted-foreground line-through decoration-destructive/70 decoration-[3px]">
+                  R$ 5.997,00
+                </span>
+              </div>
+              <div className="mt-2 text-xs uppercase tracking-[0.22em] text-accent font-bold">
+                Por apenas
+              </div>
+            </div>
+
             {/* Opção 1 destaque */}
-            <div className="mt-6 rounded-xl border border-accent/40 bg-accent/5 p-6 text-center relative">
+            <div className="mt-4 rounded-xl border border-accent/40 bg-accent/5 p-6 text-center relative">
               <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-accent text-accent-foreground text-[10px] font-bold uppercase tracking-[0.2em] px-3 py-1 rounded-full whitespace-nowrap">
                 Melhor oferta
               </span>
@@ -58,7 +73,7 @@ export const PricingSection = () => (
                 R$ 3.040<span className="text-2xl md:text-3xl">,00</span>
               </div>
               <div className="mt-1 text-sm text-accent font-semibold">
-                Você economiza R$ 160,00 pagando à vista
+                Economia de R$ 2.957,00 em relação ao valor cheio
               </div>
             </div>
 
