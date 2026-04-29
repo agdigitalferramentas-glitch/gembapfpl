@@ -5,6 +5,7 @@ import PromiseSection from "@/components/lean/PromiseSection";
 import ModulesSection from "@/components/lean/ModulesSection";
 import AudienceSection from "@/components/lean/AudienceSection";
 import SocialProofSection from "@/components/lean/SocialProofSection";
+import LogosMarquee from "@/components/lean/LogosMarquee";
 import TestimonialsSection from "@/components/lean/TestimonialsSection";
 import FormatSection from "@/components/lean/FormatSection";
 import ProjectSection from "@/components/lean/ProjectSection";
@@ -23,6 +24,7 @@ const Index = () => {
       <ModulesSection />
       <AudienceSection />
       <SocialProofSection />
+      <LogosMarquee />
       <TestimonialsSection />
       <FormatSection />
       <ProjectSection />
