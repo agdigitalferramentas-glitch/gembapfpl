@@ -28,7 +28,7 @@ export const PainSection = () => (
         <div className="label-eyebrow">Você vive alguma dessas situações?</div>
         <h2 className="section-title mt-4 text-foreground">
           Seu processo tem mais desperdício do que você imagina.{" "}
-          <span className="text-accent">E você sabe disso.</span>
+          <span className="text-accent">E você sabe{"\u00A0"}disso.</span>
         </h2>
       </div>
       <div className="mt-12 grid md:grid-cols-2 gap-5">
