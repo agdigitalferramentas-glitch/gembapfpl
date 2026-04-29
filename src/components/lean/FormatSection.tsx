@@ -22,7 +22,7 @@ const items = [
   {
     icon: "🛠️",
     title: "Projeto Real com A3 Estratégico",
-    text: "Você desenvolve um projeto A3 real na sua empresa, com escopo aprovado pela liderança, indicadores e validação do gestor.",
+    text: "Desenvolva um projeto A3 real na sua empresa, com escopo e indicadores alinhados ao negócio, e aprovação final do comitê técnico do Gemba Group.",
   },
 ];
 
