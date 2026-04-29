@@ -38,7 +38,7 @@ export const LogosMarquee = () => {
         <div className="pointer-events-none absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-surface-deep to-transparent z-10" />
         <div className="pointer-events-none absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-surface-deep to-transparent z-10" />
 
-        <div className="flex w-max animate-marquee group-hover:[animation-play-state:paused]">
+        <div className="flex w-max animate-marquee">
           {loop.map((logo, i) => (
             <div
               key={i}
@@ -48,7 +48,7 @@ export const LogosMarquee = () => {
                 src={logo.src}
                 alt={logo.alt}
                 loading="lazy"
-                className="h-10 md:h-12 w-auto object-contain grayscale opacity-40 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
+                className="h-10 md:h-12 w-auto object-contain grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
               />
             </div>
           ))}
