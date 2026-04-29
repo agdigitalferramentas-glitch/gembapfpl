@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import logoPfpl from "@/assets/logo-pfpl.svg";
 
 const stats = [
   { value: "20", suffix: "módulos", label: "Ferramentas Lean completas" },
@@ -24,8 +25,15 @@ export const Hero = () => {
           Gemba Group — 17 anos transformando operações
         </div>
 
+        {/* Logo */}
+        <img
+          src={logoPfpl}
+          alt="PFPL — Programa de Formação Profissional Lean"
+          className="mt-8 h-24 md:h-32 w-auto"
+        />
+
         {/* Title */}
-        <h1 className="hero-title mt-8 text-foreground">
+        <h1 className="hero-title mt-6 text-foreground">
           <span className="block">Elimine desperdícios</span>
           <span className="block text-accent">invisíveis</span>
           <span className="block text-foreground text-[0.55em] font-bold tracking-tight mt-2 normal-case leading-[1.05]">
