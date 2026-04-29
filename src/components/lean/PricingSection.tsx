@@ -118,7 +118,7 @@ export const PricingSection = () => (
                   <span className="text-foreground/85">{i}</span>
                 </li>
               ))}
-              <li className="flex gap-3 pt-3 mt-3 border-t border-border">
+              <li className="flex gap-3">
                 <span className="text-primary font-bold shrink-0">★</span>
                 <span className="text-foreground font-semibold">
                   Certificado Programa de Formação Profissional Lean — Gemba Group
