@@ -29,7 +29,7 @@ export const StickyBar = () => {
             </span>
           </div>
           <a
-            href="#pricing"
+            href="#pricing-card"
             className="group shrink-0 inline-flex items-center gap-1.5 rounded-md bg-primary px-4 py-2.5 text-sm font-bold text-primary-foreground hover:bg-primary-strong hover:-translate-y-0.5 transition-all"
           >
             Garantir vaga

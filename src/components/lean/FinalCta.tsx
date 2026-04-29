@@ -17,7 +17,7 @@ export const FinalCta = () => (
         <span className="text-foreground font-semibold">06 de julho</span>. As vagas são limitadas. Comece agora.
       </p>
       <a
-        href="#pricing"
+        href="#pricing-card"
         className="group mt-10 inline-flex items-center gap-2 rounded-md bg-primary px-8 py-4 text-base font-bold text-primary-foreground shadow-[0_10px_40px_-10px_hsl(var(--primary)/0.7)] transition-all hover:bg-primary-strong hover:-translate-y-0.5 hover:shadow-[0_18px_50px_-10px_hsl(var(--accent)/0.6)]"
       >
         Quero minha vaga no Programa Lean
