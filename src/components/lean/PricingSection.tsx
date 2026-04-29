@@ -48,10 +48,10 @@ export const PricingSection = () => (
 
             {/* Ancoragem */}
             <div className="mt-6 text-center">
-              <div className="text-xs uppercase tracking-[0.22em] text-muted-foreground font-bold">
-                De
-              </div>
-              <div className="mt-1">
+              <div className="inline-flex items-baseline gap-2">
+                <span className="text-xs uppercase tracking-[0.22em] text-muted-foreground font-bold">
+                  De
+                </span>
                 <span className="font-numeric text-3xl text-muted-foreground line-through decoration-destructive/70 decoration-[3px]">
                   R$ 5.997,00
                 </span>
