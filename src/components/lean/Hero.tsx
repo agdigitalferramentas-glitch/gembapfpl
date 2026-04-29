@@ -29,7 +29,7 @@ export const Hero = () => {
         <img
           src={logoPfpl}
           alt="PFPL — Programa de Formação Profissional Lean"
-          className="mt-8 w-[175px] md:w-[200px] h-auto"
+          className="mt-8 w-[150px] md:w-[200px] h-auto"
         />
 
         {/* Title */}
