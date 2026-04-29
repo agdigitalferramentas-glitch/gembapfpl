@@ -1,11 +1,12 @@
 import { ArrowRight, Lock } from "lucide-react";
 
 const included = [
+  "82 horas de aulas ao vivo + 8 horas de coaching para certificação",
   "20 módulos completos com as principais ferramentas Lean",
   "5S, Kaizen, TPM, Kanban, SMED, MFV, Lean Office, Hoshin, A3, MASP, Kamishibai, Logística Lean, Liderança Lean e mais",
   "Aulas ao vivo via Teams — terças e quintas, 19h30–22h30",
   "Projeto real com A3 estratégico aplicado na empresa",
-  "Mentoria de coaching durante o programa",
+  "Coaching de certificação: 3 encontros bimestrais (2h cada) nos 6 meses após o término das aulas",
   "Avaliação final com consultores Gemba",
   "Validação do gestor para certificação",
 ];
