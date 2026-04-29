@@ -10,7 +10,7 @@ export const PromiseSection = () => (
         <div className="label-eyebrow">O que você conquista com o programa</div>
         <h2 className="section-title mt-4 text-foreground">
           Aprenda a enxergar o que a maioria não vê — e transforme isso em{" "}
-          <span className="text-accent">resultado para sua empresa.</span>
+          <span className="text-accent">resultado para sua{"\u00A0"}empresa.</span>
         </h2>
       </div>
 
