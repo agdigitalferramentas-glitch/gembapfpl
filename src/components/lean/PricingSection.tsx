@@ -26,7 +26,7 @@ export const PricingSection = () => (
         <div className="label-eyebrow justify-center inline-flex">Investimento</div>
         <h2 className="section-title mt-4 text-foreground">
           Um programa completo com{" "}
-          <span className="text-accent">o melhor custo-benefício</span> do mercado.
+          <span className="text-accent">o melhor custo-benefício</span> do{"\u00A0"}mercado.
         </h2>
       </div>
 
