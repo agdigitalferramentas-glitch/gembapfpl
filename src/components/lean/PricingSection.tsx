@@ -40,6 +40,9 @@ export const PricingSection = () => (
             <h3 className="font-display font-bold text-2xl md:text-3xl uppercase text-foreground leading-tight text-center">
               Programa de Formação Profissional Lean
             </h3>
+            <p className="mt-4 text-sm md:text-base text-muted-foreground text-center leading-relaxed">
+              Invista na sua carreira com o 1º e mais respeitado programa do país, com a chancela exclusiva e metodologia criada pelo <span className="text-foreground font-semibold">Gemba Group</span>.
+            </p>
 
             {/* Ancoragem */}
             <div className="mt-7 text-center">
