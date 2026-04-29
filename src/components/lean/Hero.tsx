@@ -22,7 +22,7 @@ export const Hero = () => {
         {/* Badge */}
         <div className="inline-flex items-center gap-2.5 rounded-full border border-accent/40 bg-accent/5 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.18em] text-accent backdrop-blur">
           <span className="pulse-dot" />
-          Gemba Group — 17 anos transformando operações
+          Gemba Group | Criadores do 1º Programa Lean do Brasil
         </div>
 
         {/* Logo */}
