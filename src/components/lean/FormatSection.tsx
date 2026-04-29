@@ -42,7 +42,7 @@ export const FormatSection = () => (
         <div className="label-eyebrow">Como funciona</div>
         <h2 className="section-title mt-4 text-foreground">
           Online, ao vivo, com projeto real.{" "}
-          <span className="text-accent">Sem desculpas para não começar.</span>
+          <span className="text-accent">Sem desculpas para não{"\u00A0"}começar.</span>
         </h2>
       </div>
 
