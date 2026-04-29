@@ -24,6 +24,11 @@ const items = [
     title: "Projeto Real com A3 Estratégico",
     text: "Desenvolva um projeto A3 real na sua empresa, com escopo e indicadores alinhados ao negócio, e aprovação final do comitê técnico do Gemba Group.",
   },
+  {
+    icon: "🔁",
+    title: "Acesso às Gravações",
+    text: "Perdeu algum encontro ao vivo? Sem problemas. Todas as aulas ficam disponíveis na nossa plataforma para você repor e assistir quantas vezes quiser, sem colocar a sua certificação em risco.",
+  },
 ];
 
 export const FormatSection = () => (
