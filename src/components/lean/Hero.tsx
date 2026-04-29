@@ -47,10 +47,6 @@ export const Hero = () => {
           <span className="text-accent font-semibold"> não é teoria, é execução.</span>
         </p>
 
-        <div className="mt-5 inline-flex items-center gap-2 text-xs uppercase tracking-[0.18em] text-muted-foreground">
-          <span className="h-px w-8 bg-accent/60" />
-          PROGRAMA DE FORMAÇÃO PROFISSIONAL LEAN
-        </div>
 
         {/* CTAs */}
         <div className="mt-10 flex flex-col sm:flex-row items-start sm:items-center gap-5">
