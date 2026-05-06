@@ -97,8 +97,19 @@ export const PricingSection = () => (
             </div>
 
             <a
+              href="https://wa.me/5541987617531?text=Ol%C3%A1!%20Vim%20do%20site%20e%20quero%20saber%20mais%20sobre%20o%20PFPL!"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-5 w-full inline-flex items-center justify-center gap-2 rounded-md border-2 border-border bg-transparent px-6 py-3.5 text-sm md:text-base font-semibold text-foreground transition-all hover:bg-surface-2 hover:-translate-y-0.5"
+            >
+              <span className="text-center">Falar com o comercial</span>
+            </a>
+
+            <a
               href="https://celcash.celcoin.com.br/landingpage8400068/pfpl-formacao-profissional-lean"
-              className="group mt-8 w-full inline-flex items-center justify-center gap-2 rounded-md bg-primary px-6 py-4 text-center text-sm md:text-base font-bold text-primary-foreground shadow-[0_10px_40px_-10px_hsl(var(--primary)/0.7)] transition-all hover:bg-primary-strong hover:-translate-y-0.5 hover:shadow-[0_18px_50px_-10px_hsl(var(--accent)/0.6)]"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group mt-3 w-full inline-flex items-center justify-center gap-2 rounded-md bg-primary px-6 py-4 text-center text-sm md:text-base font-bold text-primary-foreground shadow-[0_10px_40px_-10px_hsl(var(--primary)/0.7)] transition-all hover:bg-primary-strong hover:-translate-y-0.5 hover:shadow-[0_18px_50px_-10px_hsl(var(--accent)/0.6)]"
             >
               <span className="text-center">Garantir minha vaga agora</span>
               <ArrowRight className="h-5 w-5 shrink-0 transition-transform group-hover:translate-x-1" />
