@@ -97,7 +97,7 @@ export const PricingSection = () => (
             </div>
 
             <a
-              href="#pricing-card"
+              href="https://celcash.celcoin.com.br/landingpage8400068/pfpl-formacao-profissional-lean"
               className="group mt-8 w-full inline-flex items-center justify-center gap-2 rounded-md bg-primary px-6 py-4 text-center text-sm md:text-base font-bold text-primary-foreground shadow-[0_10px_40px_-10px_hsl(var(--primary)/0.7)] transition-all hover:bg-primary-strong hover:-translate-y-0.5 hover:shadow-[0_18px_50px_-10px_hsl(var(--accent)/0.6)]"
             >
               <span className="text-center">Garantir minha vaga agora</span>
