@@ -1,4 +1,9 @@
+import { useState } from "react";
 import { ArrowRight, Lock } from "lucide-react";
+import PreCheckoutModal from "./PreCheckoutModal";
+
+const CHECKOUT_URL =
+  "https://celcash.celcoin.com.br/landingpage8400068/pfpl-formacao-profissional-lean";
 
 const included = [
   "82 horas de aulas ao vivo + 8 horas de coaching para certificação",
