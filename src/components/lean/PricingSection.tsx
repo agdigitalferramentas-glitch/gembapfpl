@@ -16,7 +16,9 @@ const included = [
   "Validação do gestor para certificação",
 ];
 
-export const PricingSection = () => (
+export const PricingSection = () => {
+  const [modalOpen, setModalOpen] = useState(false);
+  return (
   <section
     id="pricing"
     className="py-14 lg:py-20 relative overflow-hidden"
