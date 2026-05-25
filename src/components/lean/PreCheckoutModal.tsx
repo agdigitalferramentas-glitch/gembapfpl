@@ -95,7 +95,7 @@ export const PreCheckoutModal = ({ open, onClose, checkoutUrl }: PreCheckoutModa
         </button>
 
         <div className="bg-primary text-primary-foreground text-center py-2.5 text-xs font-bold uppercase tracking-[0.2em] flex items-center justify-center gap-2">
-          <Lock className="h-3.5 w-3.5" /> Falta pouco para garantir sua vaga
+          Falta pouco para garantir sua&nbsp;vaga
         </div>
 
         <div className="p-6 md:p-8">
