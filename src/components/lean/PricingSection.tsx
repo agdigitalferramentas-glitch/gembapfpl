@@ -115,15 +115,14 @@ export const PricingSection = () => {
               <span className="text-center">Falar com o comercial</span>
             </a>
 
-            <a
-              href="https://celcash.celcoin.com.br/landingpage8400068/pfpl-formacao-profissional-lean"
-              target="_blank"
-              rel="noopener noreferrer"
+            <button
+              type="button"
+              onClick={() => setModalOpen(true)}
               className="group mt-3 w-full inline-flex items-center justify-center gap-2 rounded-md bg-primary px-6 py-4 text-center text-sm md:text-base font-bold text-primary-foreground shadow-[0_10px_40px_-10px_hsl(var(--primary)/0.7)] transition-all hover:bg-primary-strong hover:-translate-y-0.5 hover:shadow-[0_18px_50px_-10px_hsl(var(--accent)/0.6)]"
             >
               <span className="text-center">Garantir minha vaga agora</span>
               <ArrowRight className="h-5 w-5 shrink-0 transition-transform group-hover:translate-x-1" />
-            </a>
+            </button>
 
             <div className="mt-5 text-center text-xs text-muted-foreground flex items-center justify-center gap-2">
               <Lock className="h-3 w-3" /> Ambiente seguro · Início 06/07/2026 · Vagas limitadas
