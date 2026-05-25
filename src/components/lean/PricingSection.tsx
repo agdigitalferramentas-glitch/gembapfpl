@@ -164,7 +164,10 @@ export const PricingSection = () => {
         </div>
       </div>
     </div>
+    <PreCheckoutModal open={modalOpen} onClose={() => setModalOpen(false)} checkoutUrl={CHECKOUT_URL} />
   </section>
-);
+  );
+};
+
 
 export default PricingSection;
